@@ -6,7 +6,7 @@ Sample code.
 
 ## Building
 
-> __requires Xcode Version 9.0 (9A235)__
+> __requires Xcode Version 11.7 (11E801a)__
 
 1. Install Xcode from [Apple](https://developer.apple.com/download/more/).
 
@@ -23,11 +23,9 @@ Sample code.
 * iOS
 - 11.0
 
-
 ## Licence
 
 Please read [LICENSE.md](LICENSE.md).
-
 
 ## Author
 

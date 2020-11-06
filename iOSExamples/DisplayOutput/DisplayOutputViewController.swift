@@ -29,10 +29,10 @@ class DisplayOutputViewController: UIViewController {
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.screenDidConnect(_:)),
-                                               name: NSNotification.Name.UIScreenDidConnect, object: nil)
+                                               name: UIScreen.didConnectNotification, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.screenDidDisconnect(_:)),
-                                               name: NSNotification.Name.UIScreenDidDisconnect, object: nil)
+                                               name: UIScreen.didDisconnectNotification, object: nil)
     }
     
     @objc private func screenDidConnect(_: NSNotification) {

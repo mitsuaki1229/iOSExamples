@@ -11,7 +11,7 @@ import UIKit
 class LineIndexLabel: UILabel {
         
     override func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)))
+        super.drawText(in: rect.inset(by: UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)))
     }
     
     override var intrinsicContentSize: CGSize {
