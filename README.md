@@ -6,22 +6,17 @@ Sample code.
 
 ## Building
 
-> __requires Xcode Version 11.7 (11E801a)__
+> **requires Xcode Version 12.1 (12A7403)**
 
-1. Install Xcode from [Apple](https://developer.apple.com/download/more/).
-
-1. Open iOSExamples.xcodeproj in Xcode.
-
-1. Build the iOSExamples scheme in Xcode.
-
+1.  Install Xcode from [Apple](https://developer.apple.com/download/more/).
+2.  Open iOSExamples.xcodeproj in Xcode.
+3.  Build the iOSExamples scheme in Xcode.
 
 ## Target
 
-* iPhone
-* iPad
-
-* iOS
-- 11.0
+-   iPhone
+-   iPad
+-   iOS ~> 12.0
 
 ## Licence
 
